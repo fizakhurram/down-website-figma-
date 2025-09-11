@@ -12,6 +12,14 @@ body {
 
 }
 
+.mycontainer {
+    margin: 0px auto;
+    max-width: 1400px;
+    min-width: 350px;
+    width: 100ww;
+
+}
+
 li {
     color: white !important;
 }
@@ -29,13 +37,14 @@ li {
 .mynavitems {
     color: white;
     /* background-color: #A734BD; */
+    font-size: 20px;
 }
 
 .mobileimg {
-    max-width: 100%;
     height: auto;
     display: block;
-    margin: 0PX;
+    max-width: 300px;
+    width: 100%;
 }
 
 
@@ -43,10 +52,10 @@ li {
     background-color: black;
     height: auto;
     width: 100vw;
-    position: relative;
     z-index: 1;
     padding-top: 65px;
     font-size: 20px;
+    margin: 0 auto;
 }
 
 .first-part h1 {
@@ -61,8 +70,12 @@ li {
     opacity: 0.6;
 }
 
-.first-part .col {
-    /* justify-content: center !important; */
+.mobileimgdiv {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    /* adjust as needed */
+    max-width: 100%;
 }
 
 .circle1 {
@@ -73,27 +86,69 @@ li {
     top: 10px;
     opacity: 0.3;
     z-index: -1;
-    /* background: linear-gradient(to right, #72147e, #e91e63); */
     background: #FF006A;
     background: radial-gradient(circle, rgba(255, 0, 106, 1) 0%, rgba(183, 43, 174, 1) 39%, rgba(0, 0, 0, 1) 93%);
-    box-shadow: gray;
+    box-shadow: 10px 10px 6px #A734BD;
+    opacity: 0.2;
 
 }
 
 .icon1 {
     position: absolute;
     top: 20%;
-    left: 15%;
+    left: 10%;
 }
 
 .icon2 {
     position: absolute;
-    top: 30%;
-    left: 32%;
+    top: 50%;
+    left: 65%;
+}
+
+.icon3 {
+    position: absolute;
+    top: 15%;
+    left: 73%;
 }
 
 .myrow1 {
     margin: 0px auto;
+}
+
+@media only screen and (max-width:1100px) {
+    .mobileimgdiv {
+        position: relative;
+        display: inline-block;
+        width: 300px;
+        /* adjust as needed */
+        max-width: 100%;
+    }
+
+    .mobileimg {
+        height: auto;
+        display: block;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .icon1 {
+        position: absolute;
+        top: 20%;
+        left: 0%;
+    }
+
+    .icon2 {
+        position: absolute;
+        top: 50%;
+        left: 70%;
+    }
+
+    .icon3 {
+        position: absolute;
+        top: 15%;
+        left: 75%;
+    }
+
 }
 
 @media only screen and (max-width:990px) {
@@ -101,40 +156,41 @@ li {
         background-color: #A734BD;
         transition: max-height 0.5s ease;
         box-shadow: 5px 5px 10px #A734BD;
-        text-align: center;
+        /* text-align: center; */
     }
 
-    /* .icon1 {
+    .mobileimg {
+        height: auto;
+        display: block;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .icon1 {
         position: absolute;
         top: 20%;
-        left: 15%;
+        left: 6%;
     }
 
     .icon2 {
         position: absolute;
-        top: 30%;
-        left: 32%;
-    } */
+        top: 50%;
+        left: 70%;
+    }
+
+    .icon3 {
+        position: absolute;
+        top: 15%;
+        left: 76%;
+    }
 }
 
 
-@media only screen and (max-width: 768px) {
-    .icon1 {
-        display: none;
-    }
-
-    .icon2 {
-        display: none;
-    }
+@media only screen and (max-width: 768px) and (min-width:578px) {
 
     .circle1 {
         height: 500px;
         width: 500px;
-    }
-
-    .myrow1 {
-        justify-content: space-around !important;
-        flex-wrap: wrap;
     }
 
     .first-part {
@@ -144,39 +200,46 @@ li {
         padding-top: 10px;
     }
 
-    .mobileimg {
+    .mylogo img {
+        height: 40px;
+    }
+
+    .mobileimgdiv {
+        position: relative;
+        display: inline-block;
+        width: 300px;
         max-width: 100%;
+    }
+
+    .mobileimg {
         height: auto;
         display: block;
-        padding-top: 20px;
+        max-width: 300px;
+        width: 100%;
     }
 
     .icon1 {
         position: absolute;
         top: 20%;
-        left: 15%;
+        left: -6%;
+        height: 15%;
     }
 
     .icon2 {
         position: absolute;
-        top: 30%;
-        left: 32%;
+        top: 50%;
+        left: 73%;
+        height: 15%;
     }
-    .mylogo img{
-        height: 40px;
+    .icon3 {
+        position: absolute;
+        top: 15%;
+        left: 85%;
     }
 
 }
 
 @media only screen and (max-width: 578px) {
-    .icon1 {
-        display: none;
-    }
-
-    .icon2 {
-        display: none;
-    }
-
     .circle1 {
         height: 300px;
         width: 300px;
@@ -188,11 +251,6 @@ li {
         width: 100vw;
     }
 
-    /* .mobileimg{
-        height: 600px;
-        margin: 0 auto;
-        justify-content: center;
-    } */
     .myrow1 {
         font-size: 20px;
         margin: 0 auto;
@@ -213,5 +271,36 @@ li {
         height: auto;
         display: block;
         padding-top: 20px;
+    }
+    .mobileimgdiv {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .mobileimg {
+        height: auto;
+        display: block;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .icon1 {
+        position: absolute;
+        top: 30%;
+        /* left: 0%; */
+    }
+
+    .icon2 {
+        position: absolute;
+        top: 50%;
+        left: 70%;
+    }
+
+    .icon3 {
+        position: absolute;
+        top: 15%;
+        left: 74%;
     }
 }
