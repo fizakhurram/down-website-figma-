@@ -96,7 +96,7 @@ li {
 .icon1 {
     position: absolute;
     top: 20%;
-    left: 10%;
+    left: 15%;
     height: 13%;
 }
 
@@ -110,7 +110,7 @@ li {
 .icon3 {
     position: absolute;
     top: 15%;
-    left: 73%;
+    left: 70%;
     height: 13%;
 }
 
@@ -249,7 +249,7 @@ li {
 
 }
 
-@media only screen and (max-width: 578px) and (min-width:300px) {
+@media only screen and (max-width: 578px){
     .circle1 {
         height: 300px;
         width: 300px;
@@ -306,14 +306,14 @@ li {
     .icon2 {
         position: absolute;
         top: 50%;
-        left: 70%;
+        left: 73%;
         height: 10%;
     }
 
     .icon3 {
         position: absolute;
         top: 15%;
-        left: 74%;
+        left: 72%;
         height: 10%;
     }
 }
@@ -342,7 +342,7 @@ li {
     .icon2 {
         position: absolute;
         top: 50%;
-        left: 65%;
+        left: 75%;
     }
 
     .icon3 {
