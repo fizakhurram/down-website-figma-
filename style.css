@@ -337,6 +337,25 @@ li {
     color: #fff;
 }
 
+.last-buttons{
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+.last-buttons h1{
+    font-size: 40px;
+}
+.last-buttons button{
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+
+
+
 
 
 @media only screen and (max-width:1100px) {
@@ -754,6 +773,9 @@ li {
     }
     .reviews{
         gap: 10px;
+    }
+    .last-buttons h1{
+        font-size: 30px;
     }
 
 
