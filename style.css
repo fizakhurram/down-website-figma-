@@ -85,7 +85,6 @@ li {
     position: relative;
     display: inline-block;
     width: 300px;
-    /* adjust as needed */
     max-width: 100%;
 }
 
@@ -190,14 +189,13 @@ li {
 .second-part-1 {
     display: flex;
     align-items: center;
+    gap: 10px;
     text-align: center;
     width: 1000px;
     height: auto;
     margin: 0 auto;
-    /* border: 1px solid; */
     padding: auto;
     border-radius: 10px;
-    /* background: #34213480; */
     margin-top: 30px;
 
 
@@ -248,9 +246,7 @@ li {
 .c3 {
     display: flex;
     justify-content: space-between;
-    /* height: 900px; */
     margin: 50px;
-    /* border: 1px solid; */
     width: auto;
     margin: 0 auto;
     margin-top: 60px;
@@ -299,7 +295,7 @@ li {
 }
 .reviews div{
     height: auto;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -317,6 +313,7 @@ li {
 .review-cards{
     padding: 0px;
     margin: 0 auto;
+    margin: 0;
 }
 .cards2{
     height: auto;
@@ -347,7 +344,6 @@ li {
         position: relative;
         display: inline-block;
         width: 300px;
-        /* adjust as needed */
         max-width: 100%;
     }
 
@@ -390,7 +386,6 @@ li {
         background-color: #A734BD;
         transition: max-height 0.5s ease;
         box-shadow: 5px 5px 10px #A734BD;
-        /* text-align: center; */
     }
 
     .circle1 {
@@ -449,9 +444,7 @@ li {
     .c3 {
         display: flex;
         justify-content: space-between;
-        /* height: 900px; */
         margin: 50px;
-        /* border: 1px solid; */
         width: auto;
         margin: 0 auto;
         margin-top: 60px;
@@ -488,6 +481,9 @@ li {
     .review-text{
         padding: 0;
         font-size: 20px;
+    }
+    .cards2{
+        width: 500px;
     }
 
 }
@@ -733,16 +729,14 @@ li {
         flex-wrap: wrap;
     }
     .review-cards{
-        /* width: 200px; */
         margin: 0 auto;
     }
 
     .cards2{
     height: 600px;
-    width: 300px;
-    /* padding: 10px; */
+    width: 400px;
     border-radius: 15px;
-    /* opacity: 0.5; */
+    opacity: 0.5;
     background-color: #34213480;
     font-size: 10px;
     
@@ -750,6 +744,7 @@ li {
 .review-text{
     padding: 0;
     margin: 0 auto;
+    width: 320px;
     font-size: 15px;
     text-align: center;
 }
@@ -771,7 +766,6 @@ li {
         position: relative;
         display: inline-block;
         width: 300px;
-        /* adjust as needed */
         max-width: 100%;
     }
 
@@ -804,10 +798,11 @@ li {
         margin-top:20px ;
     }
     .review-cards{
-        width: 200px;
+        /* width: 200px; */
+        margin: 0;
     }
     .cards2{
-        width: auto;
+        width: 320px;
         margin: 0 auto;
         height: auto;
     }
