@@ -342,6 +342,9 @@ li {
     margin: 0 auto;
     text-align: center;
 }
+.btns{
+    /* display: flex; */
+}
 .last-buttons h1{
     font-size: 40px;
 }
@@ -352,6 +355,74 @@ li {
     margin-left: 10px;
     margin-top: 40px;
 
+}
+.last-box{
+    margin: 0 auto;
+    height: auto;
+    margin-top: 30px;
+    width: 700px;
+}
+.press{
+    text-align: center;
+    margin: 0 auto;
+}
+.last-box img{
+    height: 30px;
+    width: 100px;
+    margin-left: 30px;
+
+}
+.imagesofthis{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #34213480;
+    margin-top: 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+    height: auto;
+    flex-wrap: wrap;
+    width: auto;
+
+}
+.row1oflogo{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+}
+.one{
+    display: flex;
+    flex-wrap: wrap;
+}
+.two{
+    display: flex;
+    flex-wrap: wrap;
+}
+.three{
+    display: flex;
+    flex-wrap: wrap;
+}
+.four{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row2oflogo{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    width: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.lastpara{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 10px;
+    margin: 0 auto;
 }
 
 
@@ -623,6 +694,13 @@ li {
     .review{
         gap: 10px;
     }
+    .last-box{
+        width: 570px;
+    }
+    .last-box img{
+        height: 20px;
+        width: 80px;
+    }
 
 }
 
@@ -775,8 +853,62 @@ li {
         gap: 10px;
     }
     .last-buttons h1{
-        font-size: 30px;
+        font-size: 25px;
     }
+    .btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btns button{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .press{
+        margin-bottom: 20px;
+    }
+    .imagesofthis{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        margin: 0 auto;
+        height: 300px;
+        width: 250px;
+    }
+    .last-box{
+        width: 250px;
+        height: auto;
+        height: 400px;
+        margin-top: 10px;
+    }
+    .last-box img{
+        height: 20px;
+        width: 80px;
+        margin-top: 25px;
+        padding: 0;
+    }
+    .row1oflogo{
+        /* flex-wrap: wrap */
+        flex-direction: column;
+        width: 250px;
+
+    }
+    .row2oflogo{
+        /* flex-wrap: wrap */
+        flex-direction: column;
+        /* margin-top: 10px; */
+        width: 250px;
+    }
+    .three{
+        margin-top: 20px;
+    }
+    .lastpara{
+        display: none;
+    }
+    .one{
+        width: 250px;
+    }
+
 
 
 }
@@ -828,4 +960,11 @@ li {
         margin: 0 auto;
         height: auto;
     }
+    .row1oflogo{
+        flex-wrap: wrap;
+    }
+    .row2oflogo{
+        flex-wrap: wrap;
+    }
+
 }
