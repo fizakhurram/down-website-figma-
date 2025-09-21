@@ -375,7 +375,7 @@ li {
 .imagesofthis{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     margin: 0 auto;
     padding: 10px;
     background-color: #34213480;
@@ -424,6 +424,44 @@ li {
     font-size: 10px;
     margin: 0 auto;
 }
+.footer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    background-color: #34213480;
+    width: auto;
+}
+.left img{
+    margin-top: 30px;
+}
+.footer p{
+    color: #fff;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+.right{
+    width: 600px;
+}
+.left{
+    width: 600px;
+}
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: #34213480;
+    opacity: 0.5;
+    margin-top: 30px;
+}
+.contacticons{
+    /* margin-left: 450px; */
+    color: white;
+    margin-left: 400px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 
@@ -700,7 +738,7 @@ li {
     .last-box img{
         height: 20px;
         width: 80px;
-    }
+    }      
 
 }
 
@@ -872,43 +910,38 @@ li {
         padding: 0;
         margin-top: 20px;
         margin: 0 auto;
+        padding-left: 30px;
         height: 300px;
-        width: 250px;
+        width: 320px;
+        justify-content: center;
     }
     .last-box{
-        width: 250px;
+        width: 320px;
         height: auto;
         height: 400px;
-        margin-top: 10px;
+        /* margin-top: 10px; */
     }
     .last-box img{
         height: 20px;
         width: 80px;
-        margin-top: 25px;
+        margin-top: 15px;
         padding: 0;
     }
     .row1oflogo{
         /* flex-wrap: wrap */
         flex-direction: column;
-        width: 250px;
+        width: 320px;
 
     }
     .row2oflogo{
         /* flex-wrap: wrap */
         flex-direction: column;
         /* margin-top: 10px; */
-        width: 250px;
-    }
-    .three{
-        margin-top: 20px;
-    }
+        width: 320px;
+    }  
     .lastpara{
         display: none;
     }
-    .one{
-        width: 250px;
-    }
-
 
 
 }
